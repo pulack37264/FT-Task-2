@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <title>JavaScript Form Validation using a sample registration form</title>
+    <meta name="keywords" content="example, JavaScript Form Validation, Sample registration form" />
+    <meta name="description"
+        content="This document is an example of JavaScript Form Validation using a sample registration form. " />
+    <link rel='stylesheet' href='js-form-validation.css' type='text/css' />
+    <script src="sample-registration-form-validation.js"></script>
+</head>
+
+<body onload="document.registration.userid.focus();">
+    <h1>Registration Form</h1>
+    
+    <form name='registration' onSubmit="return formValidation();">
+        <ul>
+            <label for="firstname">First Name:
+                    <input type="text" name="firstname" size="12" />
+            </label><br/>
+
+
+            <label for="lastname">Last Name:
+                    <input type="text" name="lastname" size="12" />
+            </label><br />
+
+
+            <label for="age">Age:
+                    <input type="text" name="age" size="12" />
+            </label><br />
+
+
+            <label >Designation:
+                <input type="radio" name="juniorprogrammer" value="Male" /><span>Junior Programmer</span>
+                <input type="radio" name="seniorprogrammer" value="Female" /><span>Senior Programmer</span>
+                <input type="radio" name="projectlead" value="Female" /><span>Project Lead</span>
+            </label><br />
+
+
+            <label>Preferred language:
+                <input type="checkbox" name="en" value="en" checked /><span>Java</span>
+                <input type="checkbox" name="nonen" value="noen" /><span>PHP</span>
+                <input type="checkbox" name="nonen" value="noen" /><span>C++</span>
+            </label><br />
+
+            <label for="email">Email:</label><input type="email" name="email" size="50" /><br />
+
+            <label for="password">Password:
+                <input type="password" name="password" size="12" />
+            </label><br />
+
+            <input type="submit" name="submit" value="Submit" /></li>
+            <input type="submit" name="submit" value="Reset" /></li>
+
+
+
+
+            <!-- <li><label for="userid">Age:</label></li>
+            <li></li>
+           
+            <li></li>
+            <li><label for="username">Name:</label></li>
+            <li><input type="text" name="username" size="50" /></li>
+            <li><label for="address">Address:</label></li>
+            <li><input type="text" name="address" size="50" /></li>
+            <li><label for="country">Country:</label></li>
+            
+           
+           
+            <li><input type="text" name="email" size="50" /></li> -->
+
+
+
+           
+
+
+
+           
+
+           
+        </ul>
+    </form>
+    <script src="index.js"/>
+</body>
+
+</html>
